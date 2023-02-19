@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.64998efd.css","mappings":"kJACA,EACE,uCACF","sources":["App.css"],"sourcesContent":["  @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Noto+Kufi+Arabic:wght@500&family=Noto+Sans+Arabic:wght@600;800&display=swap');\n*{\n  font-family: 'Noto Sans Arabic', sans-serif;\n}\n"],"names":[],"sourceRoot":""}
