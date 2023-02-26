@@ -40,16 +40,20 @@ function App() {
            style={{ width:'100%', maxHeight:'40rem', minHeight:'15rem' }}/>
            </Box>
 
-          <Box sx={{position: 'absolute',
-           left:{sm:'5%', xs:''},
-           bottom: {sm:'40%', xs:'65%'},
-           fontSize:{sm:'40px'}
+          <Box sx={{ left:{sm:'5%', xs:''},
+           fontSize:{sm:'40px'},
+           paddingBottom:'20rem',
+           position:'relative',
+           marginTop:{sm:'-30rem', xs:'-14rem'}
+
            }}>
-
-          <h2> احصل على استشارتك </h2>
+            
+            
+          <h2> احصل على استشارتك <br/><br/></h2>
           <h1 style={{color:'blue', marginTop:'-12%', marginLeft:'5%'}}> القانونية الان </h1>
-
-          <Box sx={{position: 'absolute',
+          
+          
+          <Box sx={{
            left:{sm:'20%', xs:''},
            bottom: {sm:'1%', xs:'-50%'},
            fontSize:{sm:'40px'},
@@ -59,7 +63,7 @@ function App() {
             <Info/>
           </Box>
           </Box>
-          <Box sx={{textAlign:'right', marginTop:'10px',display:{sm:'flex', xs:'block'}, maxHeight:'35rem',  }}> 
+          <Box sx={{textAlign:'right',display:{sm:'flex', xs:'block'}, maxHeight:'35rem',marginTop:{xs:'-14rem', sm:'-5rem'}  }}> 
           <Box sx={{ maxWidth:'100%',margin:'auto', marginRight:'1rem'}}>
            <h2 >
            : الأعمال العقارية 
@@ -109,14 +113,7 @@ function App() {
            </Card>
         </Box>   
       </Box>
-
-
-
-
-
-
-
-           <Box >
+     <Box >
             <Box sx={{textAlign:'center', marginTop:'3rem'}} >
               <Divider >
                  <h2  style={{display:'inline-block', color:'blue',  marginTop:{sm:'-5rem', xs:''}}}>
